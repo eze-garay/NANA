@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>NANA Contacto</title>
+    <link rel="shortcut icon" href="../assets/images/icono/buscador.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="../style.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="head__content">
+            <h3>
+                <a class="head__content-title" href="../index.html"><img src="../assets/images/general/LOGO.jpeg" alt="logo" width="150px" height="100px"></a>
+            </h3>
+            <nav>
+                <ul class="head__content-navbar menu__desktop">
+                    <li><a href="../page/inicio.html">Sobre Nosotras</a></li>
+                    <li><a href="../page/Proyectos.html">Proyectos</a></li>
+                    <li><a href="../page/Portfolio.html">Portfolio</a></li>
+                    <li><a href="../page/Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="Text__header">
+            <h1 class="Text_header-Con">Nana Estudio de Arquitectura</h1>
+            <h2 class="Text_header-Con1">Contizacion</h2>
+            <p class="Text_header-Con2">A continuacion le dejamos una tabla de cotizacion para que pueda evaluar la opcion de servicios que necesite.Esto es una idea general y puede tener modifiaciones, por eso tambien le dejamos un formulario de contacto para evacuar las dudas.</p>
+        </div>
+        <div class="main__formulario-container">
+            <Section class="main__conteiner">
+                <table class="conteiner__table">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+    
+                            <th>Tiempo de Trabajo</th>
+        
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                          <td>Planos</td>
+                          <td>1 semana</td>
+                          <td>$10000</td>
+                        </tr>
+                        <tr>
+                            <td>Diseños 3D</td>
+                            <td>5 Dias</td>
+                            <td>$8000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Combo</td>
+                            <td>10 dias</td>
+                            <td>$15000</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </Section>
+            <!--Formulario-->
+            <section class="main__Formulario">
+                <form>
+                    <section class="main__Formulario-select">
+                        <legend>Selecione su producto</legend>
+                        <input type="radio" name="Producto" id="Planos">
+                        <label for="Planos">Planos</label>
+    
+                        <input type="radio" name="Producto" id="Diseños 3D">
+                        <label for="Diseño 3D">Diseño 3D</label>
+    
+                        <input type="radio" name="Producto" id="Combo">
+                        <label for="Combo">Combo</label>
+                        
+                    </fieldset>
+                    </section>
+                    <section class="main__Formulario-select">
+                        <label></label>
+    
+                        <textarea  class="main__Formulario-select" name="Escriba su consulta" id="Consulta" cols="45" rows="10" placeholder="Escriba su consulta"></textarea>
+                    </section>
+                    <section>
+                        <fieldset>
+                            <legend >Selecione su Pais</legend>
+                            <Select class="main__Formulario-Button">
+                                <option >Argentina</option>
+                                <option >Uruguay</option>
+                                <option >Perú</option>
+                            </Select>  
+                        </fieldset> 
+                    </section>
+                    <section class="main__Formulario-select">
+                        <label for="Escriba su nombre">Escriba su nombre</label>
+                        <input type="text" placeholder="Escriba su nombre" id="Escriba su nombre">
+                        <label for="Escriba su email">Escriba su email</label>
+                        <input type="email" placeholder="Escriba su email" id="Escriba su email">
+                        <label for="Escriba su teléfono">Escriba su teléfono</label>
+                        <input type="text" placeholder="Escriba su teléfono" id="Escriba su teléfono">
+                    </section>
+                    <section>
+                        <input class="main__Formulario-select" type="checkbox" id="Terminos" />
+                        <label class="main__Formulario-select" for="Terminos">Aceptar los terminos y condiciones</label>
+                    </section>
+                    <section>
+                        <button class="main__Formulario-Button" type="submit">Enviar información</button>
+                        <button class="main__Formulario-Button" type="reset">Limpiar informacion</button>
+                    </section>
+                </form>
+            </section> 
+            <section class="main__Formulario-map">
+                <h4>Si preferís podés visitar nuestras oficinas</h4>
+                <iframe class="main__Formulario-map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.042838505443!2d-64.18118338506586!3d-31.385382301892918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432984392964f61%3A0x8c1ecb2d979c2d2a!2sCalder%C3%B3n%20de%20la%20Barca%20341%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1659638105833!5m2!1ses!2sar" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+        </div>
+            
+    </main>
+    <footer>
+        <div>    
+            <form class="Footer__buttom-ingreso">
+                <a href="../index.html">
+                    <input class="Footer__buttom" type="button" value="Ingresar">
+                </a>
+                <p class="Footer__buttom-description">NANA Estudio NO ejerce el corretaje inmobiliario. Cada oficina es de propiedad y gestión independiente. En cumplimiento de las leyes vigentes que regulan el corretaje inmobiliario, Ley Nacional 25.028, Ley 22.802 de Lealtad Comercial, Ley 24.240 de Defensa al Consumidor, las normas del Código Civil y Comercial de la Nación y Constitucionales, los agentes/gestores NO ejercen el corretaje inmobiliario. Todas las operaciones inmobiliarias son objeto de intermediación y conclusión por parte de los corredores públicos inmobiliarios colegiados, cuyos datos se exhiben en cada publicación de propiedad objeto de comercialización.</p>
+                <a href="https://www.instagram.com/nana.estudio.arq/">
+                    <img class="Footer__redes" src="../assets/images/general/logo insta.webp" alt="logo instagram">
+                </a>
+            </form>
+            </div>
+    </footer>
+    
+</body>
+</html>
