@@ -19,8 +19,9 @@
     font-weight: bold;
 }
 main {
-    background-color:rgb(255, 192, 203, 40%);
+   
     height: auto;
+    background-image: linear-gradient(to right bottom, #f4f4f4, #f4f3f5, #f4f3f6, #f5f2f7, #f6f1f8, #f5e5fa, #f5d8fa, #f6cbfa, #f4aef9, #f18ef6, #ee6bf2, #eb3ced);
     
    
 }
@@ -52,9 +53,6 @@ body {
 
     align-items: center;
     font-size: 20px;
-    
-
-
 }
 .head__content-title{
     color: white;
@@ -70,6 +68,11 @@ body {
 
     font-weight: bold;
 }
+
+.scale-up-ver-top {
+        -webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
 
 
 
@@ -105,14 +108,14 @@ grid-template-areas:
     font-size: 20px;
 }
 .main_text-proyecto {
-    color: white;
+    color: black;
     text-align: center;
     margin: auto;
     padding: 20px;
     font-size: 50px;
 }
 .main_text-Porfolio {
-    color: white;
+    color: black;
     text-align: center;
     margin: auto;
     padding: 20px;
@@ -140,8 +143,28 @@ grid-template-areas:
     gap: 50px;
     max-width: 1200px;
     margin: 0 auto;
+    -webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    
 
 }
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
 
 .main__proyecto {
     margin-top: 60px;
@@ -155,8 +178,8 @@ grid-template-areas:
 
 
 .Proyecto {
-    background-color: rgb(226, 168, 226, 50%);
-     padding: 20px;
+    
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
 
@@ -356,7 +379,7 @@ tr:hover td {
 }
 .main_text-Formulario {
     grid-area: main_text-Formulario;
-    color: white;
+    color: black;
     text-align: center;
     margin: auto;
     padding: 20px;
@@ -383,7 +406,7 @@ ul {
 padding: 50px;
 }
 .Text_header-Con {
-    color: white;
+    color: black;
     text-align: center;
     margin: auto;
     padding: 20px;
