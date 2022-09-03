@@ -26,8 +26,9 @@ main {
    
 }
 footer {
+    height: auto;
     background-color: rgb(248, 186, 247, 60%);
-    font-family: "Rubik";
+    
 }
 body {
     font-family: "Rubik";
@@ -35,39 +36,18 @@ body {
 .header {
     position: sticky;
     z-index: 1;
-    height: 100px;
     top: 0;
-   
     background-color: rgb(240, 113, 200, 40%);
   
 }
 
 
-
-
-.head__content {
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
+.Nav__Content {
     font-size: 20px;
-}
-.head__content-title{
-    color: white;
-}
-.head__content-navbar {
-    display: flex;
-}
-
-.head__content-navbar a {
-    margin: 0 15px;
-
     color: white;
 
-    font-weight: bold;
 }
+
 
 .scale-up-ver-top {
         -webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -261,53 +241,6 @@ grid-template-areas:
 
 
 
-.Footer__buttom-ingreso {
-
-    text-align: center;
-    max-width: 700px;
-    width: 100%;
-    padding: 20px 20px;
-    margin: 0 auto;
-   
-}
-.Footer__buttom {
-    width: 100px;
-    height: 30px;
-}
-
-.Footer__buttom-description {
-
-    font-family: Rubik;
-
-    color: grey;
-
-    text-align: justify;
-
-    line-height: 30px;
-
-    font-weight: 500;
-
-}
-.Footer__redes {
-    opacity: 50%;
-    border-radius: 30px;
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-
-
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -441,6 +374,53 @@ padding: 50px;
     font-size: 16px;
 
 }
+
+
+
+
+
+
+
+
+.Footer__buttom-ingreso {
+
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 0 auto;
+   
+}
+.Footer__buttom {
+    width: 100px;
+    height: 30px;
+}
+
+.Footer__buttom-description {
+
+    font-family: Rubik;
+
+    color: grey;
+
+    text-align: justify;
+
+    line-height: 30px;
+
+    font-weight: 500;
+
+}
+.Footer__redes {
+    opacity: 50%;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+
+}
+
 @media (max-width: 931px) {
     .main__Formulario-map {
         display: none;

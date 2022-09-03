@@ -15,36 +15,49 @@
 
 <body>
     <header class="header">
-        <div class="head__content">
-            <h3>
-                <a class="head__content-title" href="./index.html"><img src="./assets/images/general/LOGO.jpeg" alt="logo" width="150px" height="100px"></a>
-            </h3>
-            <nav>
-                <ul class="head__content-navbar menu__desktop animate__pulse">
-                    <li><a href="./page/inicio.html">Sobre Nosotras</a></li>
-                    <li><a href="./page/Proyectos.html">Proyectos</a></li>
-                    <li><a href="./page/Portfolio.html">Portfolio</a></li>
-                    <li><a href="./page/Contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg  m-0 p-0">
+            <div class="conteiner d-flex">
+            <a class="navbar-brand m-0 p-0" href="./index.html"><img src="./assets/images/general/LOGO.jpeg" alt="Logo" width="150" height="100"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                          <a class="nav-link Nav__Content" href="./page/inicio.html">Sobre Nosotras</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link Nav__Content" href="./page/Proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link Nav__Content" href="./page/Portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link Nav__Content" href="./page/Contacto.html">Contacto</a>
+                        </li>
+                      </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
-        <section class="main__Inicio">
-                    <img src="./assets/images/general/Portada.web2.jpeg" alt="portada" width="100%">
+        <section>
+                    <img class="img-fluid" src="./assets/images/general/Portada.web2.jpeg" alt="portada" width="100%">
         </section> 
     </main>
 
     <footer>
-        <div>
-                <form class="Footer__buttom-ingreso">
-                    <a href="./page/inicio.html">
-                        <input class="Footer__buttom" type="button" value="Ingresar">
-                    </a>
-                    <p class="Footer__buttom-description">NANA Estudio NO ejerce el corretaje inmobiliario. Cada oficina es de propiedad y gestión independiente. En cumplimiento de las leyes vigentes que regulan el corretaje inmobiliario, Ley Nacional 25.028, Ley 22.802 de Lealtad Comercial, Ley 24.240 de Defensa al Consumidor, las normas del Código Civil y Comercial de la Nación y Constitucionales, los agentes/gestores NO ejercen el corretaje inmobiliario. Todas las operaciones inmobiliarias son objeto de intermediación y conclusión por parte de los corredores públicos inmobiliarios colegiados, cuyos datos se exhiben en cada publicación de propiedad objeto de comercialización.</p>
+                <form class="row">
+                    <div class="Footer__buttom-ingreso">
+                        <a href="./page/inicio.html">
+                            <input class="Footer__buttom" type="button" value="Ingresar">
+                        </a>
+                    </div>
+                    <div class="Footer__buttom-description">
+                        <p class="p-4" >NANA Estudio NO ejerce el corretaje inmobiliario. Cada oficina es de propiedad y gestión independiente. En cumplimiento de las leyes vigentes que regulan el corretaje inmobiliario, Ley Nacional 25.028, Ley 22.802 de Lealtad Comercial, Ley 24.240 de Defensa al Consumidor, las normas del Código Civil y Comercial de la Nación y Constitucionales, los agentes/gestores NO ejercen el corretaje inmobiliario. Todas las operaciones inmobiliarias son objeto de intermediación y conclusión por parte de los corredores públicos inmobiliarios colegiados, cuyos datos se exhiben en cada publicación de propiedad objeto de comercialización.</p>
+                    </div>
                 </form>
-        </div>
     </footer>
 </body>
 </html>
