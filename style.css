@@ -31,22 +31,17 @@ footer {
     
 }
 body {
-    font-family: "Rubik";
+   
 }
 .header {
     position: sticky;
     z-index: 1;
     top: 0;
-    background-color: rgb(240, 113, 200, 40%);
+    
   
 }
 
 
-.Nav__Content {
-    font-size: 20px;
-    color: white;
-
-}
 
 
 .scale-up-ver-top {
