@@ -41,34 +41,43 @@
               </nav>
         </header>
     <main >
-        <section class="main__proyectos" >
-        <h1 class="main_text-proyecto">Nana Estudio de Arquitectura</h1>
-        <div class="main__proyectos-content">
-            <article class="Proyecto">
-                <div class="Proyecto__header">
-                    <a href="https://www.instagram.com/stories/highlights/17880186431682609/">
-                        <img class="Proyecto__img" src="../assets/images/planos/proyecto1.jpeg" alt="proyecto 1"> 
-                    </a> 
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active " data-bs-interval="10000">
+                  <img src="../assets/images/planos/proyecto1.jpeg" class=" mx-auto d-block w-50 img-fluid" alt="proyecto 1">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Proyecto LAURA</h5>
+                    <p>Remodelación General</p>
+                  </div>
+            </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../assets/images/planos/proyecto2.jpeg" class="mx-auto d-block w-50 img-fluid" alt="Proyecto 2">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Proyecto GB</h5>
+                    <p>Ampliación</p>
+                  </div>
                 </div>
-                <h2 class="Proyecto__title">Proyecto Laura</h2>
-            </article>
-            <article class="Proyecto">
-                <div class="Proyecto__header">
-                    <a href="https://www.instagram.com/stories/highlights/17880186431682609/">
-                        <img class="Proyecto__img" src="../assets/images/planos/proyecto2.jpeg" alt="proyecto 2"> 
-                    </a> 
+                <div class="carousel-item">
+                  <img src="../assets/images/planos/proyecto3.jpeg" class="mx-auto d-block w-50 img-fluid" alt="Proyecto 3">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Proyecto Casona</h5>
+                    <p>Remodelación General</p>
+                  </div>
                 </div>
-                <h2 class="Proyecto__title">Proyecto GB</h2>
-            </article>
-            <article class="Proyecto">
-                <div class="Proyecto__header">
-                    <a href="https://www.instagram.com/stories/highlights/17880186431682609/">
-                        <img class="Proyecto__img" src="../assets/images/planos/proyecto3.jpeg" alt="proyecto 3"> 
-                    </a> 
-                </div>
-                <h2 class="Proyecto__title">Proyecto Casona</h2>
-            </article>
-
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
         </div>
     </main>
     <footer>
