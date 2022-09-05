@@ -73,27 +73,12 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .main__conteiner {
     margin: 100px auto;
     width: 600px;
     
 
 }
-
-
-
-
-
 
 
 .main__formulario-container {
@@ -137,9 +122,6 @@ footer {
 }
 
 
-
-
-
 .main__Formulario-Button {
     background-color: rgb(248, 59, 233,40%);
     display: inline-block;
@@ -152,13 +134,6 @@ footer {
     text-align: center;
 
 }
-
-
-
-
-
-
-
 
 .Footer__buttom-ingreso {
 
@@ -199,12 +174,7 @@ footer {
 
 }
 
-@media (max-width: 931px) {
-    .main__Formulario-map {
-        display: none;
-    }
-}
-@media (max-width: 630px) {
+
    .main__conteiner {
     display: none;
    }
@@ -215,7 +185,9 @@ footer {
     height: auto;
     width: auto;
    }
-}
+
+
+
 @media screen and (min-width: 1416px) and (max-width: 2000px) {
     .Gallery__item:nth-of-type(6n +1) {
         grid-column: 2/ span 2;
@@ -270,7 +242,6 @@ footer {
     }
 }    
     
-
 @media screen and (min-width: 580px) and (max-width: 727px) {
     .Gallery__item:first-of-type {
         grid-column: 1/ span 2;
@@ -280,11 +251,7 @@ footer {
     
     }
 }
-@media (max-width: 540px) {
-    p {
-        font-size: 12px;
-    }
-}
+
 @media screen and (min-width: 300px) and (max-width: 579px) {
     .Gallery__item:first-of-type {
         grid-column: 1/ span 2;
@@ -295,55 +262,6 @@ footer {
     }
 }
 
-@media (max-width: 992px) {
-    .main__proyectos-content{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media screen and (min-width: 1416px) and (max-width: 2000px) {
-    .course__content {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-@media (max-width: 600px) {
-    .main_text-proyecto {
-        font-size: 30px;   
-    }
-    .main_text-Porfolio {
-        font-size: 30px;  
-    }
-   
-}
-@media (max-width: 600px) {
-   
-    .main__video-img{
-        display: none;
-    }
-    .main_text-p p{
-        display: flexbox;
-        font-size: 10px;
-        padding: 0%;
-        line-height: normal;
-    }
-}
-@media (min-width: 762px) {
-    .main_conteiner {
-        padding: 10px;
-        text-align: center;
-        display: grid;
-        gap: 20px;
-        grid-template-areas: 
-        "main_text main_text" 
-        "main_text-p main__video-img";    
-        }
-}
-@media (max-width: 600px){
-    .menu__desktop {
-        display: none
-    }
-
-}
 
 
 
