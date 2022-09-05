@@ -117,6 +117,7 @@ footer {
 .main__Formulario {
     grid-area: main__Formulario;
     text-align: center;
+    width: auto;
 
     background-color: white;
     padding: 20px;
@@ -148,6 +149,7 @@ footer {
     border-radius: 10px;
     font-weight: bold;
     font-size: 16px;
+    text-align: center;
 
 }
 
