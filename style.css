@@ -174,34 +174,6 @@ ul {
     margin-bottom: 20px;
 }
 
-.Text_header {
-padding: 50px;
-}
-.Text_header-Con {
-    color: black;
-    text-align: center;
-    margin: auto;
-    padding: 20px;
-    font-size: 50px;
-
-}
-.Text_header-Con1 {
-    color: black;
-    text-align: center;
-    margin: auto;
-    padding: 20px;
-    font-size: 30px;
-
-}
-.Text_header-Con2 {
-    color: black;
-    text-align: center;
-    margin: 20px;
-    font-size: 20px;
-    text-align: justify;
-    line-height: 35px;
-
-}
 .main__Formulario-Button {
     background-color: rgb(248, 59, 233,40%);
     display: inline-block;
