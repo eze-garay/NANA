@@ -89,30 +89,6 @@ footer {
     
 
 }
-.conteiner__table { 
-    background-color:white;
-    width: 100%;
-    text-align: left;
-    border-collapse: collapse;
-}
-th, td {
-    
-    padding: 20px;
-}
-thead {
-    background-color: #246355;
-
-    color:white;
-
-    border-bottom: 3px solid #0f362d;
-}
-tr:nth-child(even) {
-    background-color: #ddd;
-}
-tr:hover td {
-    background-color: #369681;
-    color: white;
-}
 
 
 
@@ -158,21 +134,10 @@ tr:hover td {
     font-size: 40px;
 
 }
-.main_text-Sub {
-    text-align: center;
-    text-align: justify;
-    line-height: 25px;
-    padding: 40px;
-}
-ul {
-    list-style-type: none;
-}
 
-.main__Formulario-map {
-    grid-area: main__Formulario-map;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
+
+
 
 .main__Formulario-Button {
     background-color: rgb(248, 59, 233,40%);
