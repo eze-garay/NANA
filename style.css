@@ -25,7 +25,9 @@ main {
    
 }
 footer {
-    height: auto;
+    overflow: hidden;
+    position: relative;
+ 
     background-color: rgb(248, 186, 247, 60%);
 } 
 .header {
@@ -38,6 +40,9 @@ footer {
 .Text {
     text-align: justify;
 }
+
+
+
 
   
 
@@ -90,16 +95,7 @@ footer {
 }
 
 
-.main__formulario-container {
-    padding: 10px;
-    display: grid;
-    gap: 20px;
-    grid-template-areas:
-    "main_conteiner main_conteiner"
-    "main__Formulario main__Formulario-map"
-    
 
-}
 
 .main__conteiner {
     grid-area: main_conteiner;
@@ -135,7 +131,7 @@ footer {
     background-color: rgb(248, 59, 233,40%);
     display: inline-block;
     width: 100%;
-    padding: 15px 0;
+   
     color: #082077;
     border-radius: 10px;
     font-weight: bold;
@@ -147,11 +143,6 @@ footer {
 .Footer__buttom-ingreso {
 
     text-align: center;
-    max-width: 700px;
-    width: 100%;
-    padding: 20px 20px;
-    margin: 0 auto;
-    transition: background-color 0.5s;
 
 }
 .Footer__buttom {
@@ -168,36 +159,7 @@ footer {
     
     animation: vibrate-1 0.3s forwards;
 }
-.vibrate-1 {
-	-webkit-animation: vibrate-1 0.3s linear infinite both;
-	        animation: vibrate-1 0.3s linear infinite both;
-}
-@-webkit-keyframes vibrate-1 {
-    0% {
-      -webkit-transform: translate(0);
-              transform: translate(0);
-    }
-    20% {
-      -webkit-transform: translate(-2px, 2px);
-              transform: translate(-2px, 2px);
-    }
-    40% {
-      -webkit-transform: translate(-2px, -2px);
-              transform: translate(-2px, -2px);
-    }
-    60% {
-      -webkit-transform: translate(2px, 2px);
-              transform: translate(2px, 2px);
-    }
-    80% {
-      -webkit-transform: translate(2px, -2px);
-              transform: translate(2px, -2px);
-    }
-    100% {
-      -webkit-transform: translate(0);
-              transform: translate(0);
-    }
-}
+
   @keyframes vibrate-1 {
     0% {
       -webkit-transform: translate(0);
@@ -251,7 +213,6 @@ footer {
 
 
 }
-
 
 .main__conteiner {
     display: none;
