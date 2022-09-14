@@ -8,12 +8,16 @@
     grid-auto-rows: 200px;
     justify-content: center;
     gap: 1rem;
-
     &__item {
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25% );
         grid-column: span 2;
         height: 283px;
         transition: 0.5s filter;
+        & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+        }
         & :hover {
             filter : brightness(0.3);
             &:first-of-type {
