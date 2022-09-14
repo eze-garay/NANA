@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+@font-face {
+    font-family: "Rubik";
+    src: url(/assets/ttf/Rubik-Regular.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(/assets/ttf/Rubik-Bold.ttf);
+    font-weight: bold;
+}
+.Footer__buttom-ingreso {
+
+    text-align: center;
+
+}
+.Footer__buttom-description {
+
+    font-family: Rubik;
+
+    color: grey;
+
+    text-align: justify;
+
+    line-height: 30px;
+
+    font-weight: 500;
+
+}
+.Footer__redes {
+    opacity: 50%;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+
+}
+.Footer__buttom {
+    width: 200px;
+
+}
+.Footer__buttom:hover {
+    background-color: #f2c0f5;
+}
+.Footer__buttom:focus {
+    
+    animation: vibrate-1 0.3s forwards;
+}
+
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+}
+.Text {
+    text-align: justify;
+}

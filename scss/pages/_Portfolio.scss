@@ -1,0 +1,102 @@
+.Gallery {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 133px);
+    grid-auto-rows: 200px;
+    justify-content: center;
+    gap: 1rem;
+
+    &__item {
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25% );
+        grid-column: span 2;
+        height: 283px;
+        transition: 0.5s filter;
+        &:hover {
+            filter: brightness(0.3);
+            &:first-of-type {
+                grid-column: 2/ span 2; 
+            }
+        }
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 1416px) and (max-width: 2000px) {
+    .Gallery__item:nth-of-type(6n +1) {
+        grid-column: 2/ span 2;
+    }
+    .Gallery {
+        height: 800px;
+    }  
+  
+}
+@media screen and (min-width: 1177px) and (max-width: 1415px) {
+    .Gallery__item:nth-of-type(6n +1) {
+        grid-column: 2/ span 2;
+    } 
+      .Gallery {
+        height: 800px;
+    }  
+    
+  
+}
+@media screen and (min-width: 1027px) and (max-width: 1176px) {
+    .Gallery__item:first-of-type{
+        grid-column: 2/ span 2;
+    }
+    .Gallery__item:nth-of-type(6n +1) {
+        grid-column: 2/ span 2;
+
+    }  
+    .Gallery {
+        height: 800px;
+    }   
+}
+@media screen and (min-width: 878px) and (max-width: 1026px) {
+
+    .Gallery__item:nth-of-type(6n) {
+        grid-column: 2/ span 2;
+
+    }  
+    .Gallery {
+        height: 1000px;
+    }   
+}
+@media screen and (min-width: 728px) and (max-width: 877px) {
+    .Gallery__item:first-of-type {
+        grid-column: 2/ span 2;
+    } 
+    .Gallery__item:nth-of-type(4n +1) {
+        grid-column: 2/ span 2;
+
+    } 
+    .Gallery {
+        height: 1200px;
+    }
+}    
+    
+@media screen and (min-width: 580px) and (max-width: 727px) {
+    .Gallery__item:first-of-type {
+        grid-column: 1/ span 2;
+    } 
+    .Gallery {
+        grid-auto-rows: 283px;
+    
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 579px) {
+    .Gallery__item:first-of-type {
+        grid-column: 1/ span 2;
+    } 
+    .Gallery {
+        grid-auto-rows: 283px;
+    
+    }
+}
