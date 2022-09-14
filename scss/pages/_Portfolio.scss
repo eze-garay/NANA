@@ -14,8 +14,8 @@
         grid-column: span 2;
         height: 283px;
         transition: 0.5s filter;
-        &:hover {
-            filter: brightness(0.3);
+        & :hover {
+            filter : brightness(0.3);
             &:first-of-type {
                 grid-column: 2/ span 2; 
             }
