@@ -1,0 +1,22 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "NANA Estudio",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eze-garay/NANA.git"
+  },
+  "author": "Ezequiel Garay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eze-garay/NANA/issues"
+  },
+  "homepage": "https://github.com/eze-garay/NANA#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

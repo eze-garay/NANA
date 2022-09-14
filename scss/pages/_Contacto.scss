@@ -1,0 +1,43 @@
+.main__Formulario {
+    grid-area: main__Formulario;
+    text-align: center;
+    width: auto;
+
+   
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+  
+
+}
+.main_text-Formulario {
+    grid-area: main_text-Formulario;
+
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-size: 40px;
+
+}
+
+.main__Formulario-Button {
+
+    display: inline-block;
+    width: 100%;
+   
+    
+
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.Text_header-Con2 {
+    display: none;
+}
+.main__Formulario {
+    height: auto;
+    width: auto;
+}
