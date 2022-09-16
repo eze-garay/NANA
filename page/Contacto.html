@@ -7,39 +7,40 @@
         <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Edu+SA+Beginner&display=swap" rel="stylesheet"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
         <link rel="shortcut icon" href="../assets/images/icono/buscador.png" type="image/x-icon"/>
         <link rel="stylesheet" href="../css/style.css"/>
     </head>
     <body>
-        <header class="header bg-secondary bg-gradient bg-opacity-75">
-            <nav class="navbar navbar-expand-lg  m-0 p-0">
-             <a class="navbar-brand m-0 p-0" href="../index.html"><img src="../assets/images/general/LOGO.jpeg" alt="Logo" width="150" height="100"></a>
-                
-              <div class="conteiner d-flex">
-               
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav h4 ms-auto mb-2 mb-lg-0 ">
-                            <li class="nav-item ">
-                              <a class="nav-link text-white" href="./inicio.html">Sobre Nosotras</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link text-white" href="./Proyectos.html">Proyectos</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link text-white" href="./Portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link text-white" href="./Contacto.html">Contacto</a>
-                            </li>
-                          </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
-
+        <header>
+            <div class="header bg-secondary bg-gradient bg-opacity-75">
+              <a class="header__img" href="../index.html"><img src="../assets/images/general/LOGO.jpeg" alt="Logo" width="150" height="100"></a>
+              <div class="header__nav">
+                <nav class="navbar navbar-expand-lg">
+                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse" id="navbarNav">
+                             <ul class="navbar-nav h4 ms-auto mb-2 mb-lg-0 ">
+                                 <li class="nav-item">
+                                   <a class="nav-link text-white" href="./inicio.html">Sobre Nosotras</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link text-white" href="./Proyectos.html">Proyectos</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link text-white" href="./Portfolio.html">Portfolio</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link text-white" href="./Contacto.html">Contacto</a>
+                                 </li>
+                               </ul>
+                       </div> 
+                </nav>
+              </div>
+            </div>  
+          </header>
+        
     <main>
         <section class="conteiner">
             <div class="p-4 mb-5">
@@ -146,22 +147,27 @@
                 
     </main>
     <footer>
-        <form class="row">
+        <div class="Footer">
+          <div class="Footer__conteiner">
             <div class="Footer__buttom-ingreso">
-                <a href="../index.html">
-                    <input class="Footer__buttom" type="button" value="Volver">
-                </a>
+              <a href="../index.html"><input class="Footer__buttom" type="button" value="Volver"></a>
+            </div>
+            <div class="Footer__rrss">
+              <div><a href="https://eze-garay.github.io/NANA-EZEQUIEL-GARAY-TESSORE/" class="rs-github"><i class="bi bi-github"></i></a></div>
+              <div><a href="https://www.facebook.com/" class="rs-facebook"><i class="bi bi-facebook"></i></a></div>
+              <div><a href="https://twitter.com/?lang=es" class="rs-twitter"><i class="bi bi-twitter"></i></a></div>
             </div>
             <div class="Footer__buttom-description">
-                <p class="p-4" >NANA Estudio NO ejerce el corretaje inmobiliario. Cada oficina es de propiedad y gestión independiente. En cumplimiento de las leyes vigentes que regulan el corretaje inmobiliario, Ley Nacional 25.028, Ley 22.802 de Lealtad Comercial, Ley 24.240 de Defensa al Consumidor, las normas del Código Civil y Comercial de la Nación y Constitucionales, los agentes/gestores NO ejercen el corretaje inmobiliario. Todas las operaciones inmobiliarias son objeto de intermediación y conclusión por parte de los corredores públicos inmobiliarios colegiados, cuyos datos se exhiben en cada publicación de propiedad objeto de comercialización.</p>
+              <small>&copy; 2022- NANA Estudio NO ejerce el corretaje inmobiliario. Cada oficina es de propiedad y gestión independiente. En cumplimiento de las leyes vigentes que regulan el corretaje inmobiliario, Ley Nacional 25.028, Ley 22.802 de Lealtad Comercial, Ley 24.240 de Defensa al Consumidor, las normas del Código Civil y Comercial de la Nación y Constitucionales, los agentes/gestores NO ejercen el corretaje inmobiliario. Todas las operaciones inmobiliarias son objeto de intermediación y conclusión por parte de los corredores públicos inmobiliarios colegiados, cuyos datos se exhiben en cada publicación de propiedad objeto de comercialización.</small>
             </div>
-            <div>
-                <a href="https://www.instagram.com/nana.estudio.arq/">
-                    <img class="Footer__redes" src="../assets/images/general/logo insta.webp" alt="logo instagram">
-                </a>
-            </div>
-        </form>
-    </footer>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/nana.estudio.arq/">
+                <img class="Footer__redes" src="../assets/images/general/logo insta.webp" alt="logo instagram" width="50px" height="50px">
+            </a>
+        </div>
+        </div>
+      </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     
 </body>

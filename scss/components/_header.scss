@@ -1,5 +1,18 @@
 .header {
+    @include templateFlex (sapace-between, true);
     position: sticky;
     z-index: 1;
     top: 0;
+    &__img {
+        @extend .conteiner;
+        @include templateFlex (start, false);
+
+    }
+    
+    &__nav {
+        @extend .conteiner;
+        @include templateFlex (end, false);
+
+    }
+   
 }
