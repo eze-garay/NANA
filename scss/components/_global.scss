@@ -15,17 +15,11 @@
     src: url(/assets/ttf/Rubik-Bold.ttf);
     font-weight: bold;
 }
-p {
-    margin: 0;
-}
+
 .row {
 --bs-gutter-x: 0rem;
 }
-.Footer__buttom-ingreso {
 
-    text-align: center;
-
-}
 .Footer__buttom-description {
 
     font-family: Rubik;
@@ -36,14 +30,12 @@ p {
 
     line-height: 30px;
 
-    font-weight: 500;
+
 
 }
 .Footer__redes {
-    opacity: 50%;
-    border-radius: 30px;
-    width: 100px;
-    height: 100px;
+    opacity: 30%;
+    border-radius: 40px;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -90,4 +82,25 @@ p {
 }
 .Text {
     text-align: justify;
+}
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+@mixin templateFlex($valueJustify, $alignItems) {
+    display: flex;
+    justify-content: $valueJustify;
+
+@if ($alignItems == true) {
+    align-items: center;
+
+}
+    
+}
+@mixin templateGrid($columns) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: 10px;
 }

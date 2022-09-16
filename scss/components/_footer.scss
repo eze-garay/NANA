@@ -1,4 +1,34 @@
 footer {
-
     background-color: $Color;
 }
+.Footer {
+    @extend .conteiner;
+
+   &__conteiner {
+    @include templateGrid (1);
+    }
+    &__buttom-ingreso {
+        @include templateFlex (center, true);
+    }
+
+    &__rrss {
+        @include templateGrid (9)
+        $iconSocialMedia: (
+            github: $colorPrimary,
+            twitter: #55acee,
+            facebook: #2279e4,
+
+        );
+        @each $nameSocialMedia, $colorIcon in $iconSocialMedia {
+           .rs-#{$nameSocialMedia} {
+            color: $colorFont;
+            font-size: 30px;
+            transition: 0.5s;
+            &:hover {
+                color: $colorIcon;
+            }
+           }
+        }
+}
+}
+

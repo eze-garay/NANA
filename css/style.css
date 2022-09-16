@@ -1,8 +1,3 @@
-.header {
-  position: sticky;
-  z-index: 1;
-  top: 0; }
-
 * {
   margin: 0;
   padding: 0;
@@ -19,27 +14,18 @@
   src: url(/assets/ttf/Rubik-Bold.ttf);
   font-weight: bold; }
 
-p {
-  margin: 0; }
-
 .row {
   --bs-gutter-x: 0rem; }
-
-.Footer__buttom-ingreso {
-  text-align: center; }
 
 .Footer__buttom-description {
   font-family: Rubik;
   color: grey;
   text-align: justify;
-  line-height: 30px;
-  font-weight: 500; }
+  line-height: 30px; }
 
 .Footer__redes {
-  opacity: 50%;
-  border-radius: 30px;
-  width: 100px;
-  height: 100px;
+  opacity: 30%;
+  border-radius: 40px;
   position: fixed;
   bottom: 0;
   right: 0; }
@@ -76,8 +62,59 @@ p {
 .Text {
   text-align: justify; }
 
+.conteiner, .header__img, .header__nav, .Footer {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.header {
+  display: flex;
+  justify-content: sapace-between;
+  align-items: center;
+  position: sticky;
+  z-index: 1;
+  top: 0; }
+  .header__img {
+    display: flex;
+    justify-content: start; }
+  .header__nav {
+    display: flex;
+    justify-content: end; }
+
 footer {
   background-color: #f8baf799; }
+
+.Footer__conteiner {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px; }
+
+.Footer__buttom-ingreso {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.Footer__rrss {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 10px; }
+  .Footer__rrss .rs-github {
+    color: #fff8dc;
+    font-size: 30px;
+    transition: 0.5s; }
+    .Footer__rrss .rs-github:hover {
+      color: #da70d6; }
+  .Footer__rrss .rs-twitter {
+    color: #fff8dc;
+    font-size: 30px;
+    transition: 0.5s; }
+    .Footer__rrss .rs-twitter:hover {
+      color: #55acee; }
+  .Footer__rrss .rs-facebook {
+    color: #fff8dc;
+    font-size: 30px;
+    transition: 0.5s; }
+    .Footer__rrss .rs-facebook:hover {
+      color: #2279e4; }
 
 main {
   height: auto;
