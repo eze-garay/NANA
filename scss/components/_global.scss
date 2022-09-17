@@ -42,17 +42,6 @@
 
 
 }
-.Footer__buttom {
-    width: 200px;
-
-}
-.Footer__buttom:hover {
-    background-color: #f2c0f5;
-}
-.Footer__buttom:focus {
-    
-    animation: vibrate-1 0.3s forwards;
-}
 
   @keyframes vibrate-1 {
     0% {
@@ -103,4 +92,22 @@
     display: grid;
     grid-template-columns: repeat($columns, 1fr);
     gap: 10px;
+}
+
+.button {
+    flex-basis: 30%;
+    border: $colorFont solid 2px;
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: $color2;
+    background-color: $colorFont;
+}
+.button:hover {
+    color: $colorPrimary;
+}
+.button:focus {
+    animation: vibrate-1 0.3s forwards;
 }

@@ -12,7 +12,7 @@ footer {
     }
 
     &__rrss {
-        @include templateGrid (9)
+        @include templateGrid (9);
         $iconSocialMedia: (
             github: $colorPrimary,
             twitter: #55acee,
