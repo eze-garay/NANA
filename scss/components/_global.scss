@@ -111,3 +111,8 @@
 .button:focus {
     animation: vibrate-1 0.3s forwards;
 }
+.nav-text {
+    text-decoration: none;
+    color: $colorFont;
+    margin: 5px;
+}

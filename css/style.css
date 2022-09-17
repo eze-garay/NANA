@@ -74,6 +74,11 @@
 .button:focus {
   animation: vibrate-1 0.3s forwards; }
 
+.nav-text {
+  text-decoration: none;
+  color: #fff8dc;
+  margin: 5px; }
+
 .header {
   display: flex;
   justify-content: sapace-between;
@@ -87,6 +92,8 @@
   .header__nav {
     display: flex;
     justify-content: end; }
+    .header__nav li a:hover {
+      color: #ffc1d3; }
 
 footer {
   background-color: #f8baf799; }
@@ -105,12 +112,12 @@ footer {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   gap: 10px; }
-  .Footer__rrss .rs-github {
+  .Footer__rrss .rs-pinterest {
     color: #fff8dc;
     font-size: 30px;
     transition: 0.5s; }
-    .Footer__rrss .rs-github:hover {
-      color: #da70d6; }
+    .Footer__rrss .rs-pinterest:hover {
+      color: #e70303; }
   .Footer__rrss .rs-twitter {
     color: #fff8dc;
     font-size: 30px;
