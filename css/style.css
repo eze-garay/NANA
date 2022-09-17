@@ -30,15 +30,6 @@
   bottom: 0;
   right: 0; }
 
-.Footer__buttom {
-  width: 200px; }
-
-.Footer__buttom:hover {
-  background-color: #f2c0f5; }
-
-.Footer__buttom:focus {
-  animation: vibrate-1 0.3s forwards; }
-
 @keyframes vibrate-1 {
   0% {
     -webkit-transform: translate(0);
@@ -62,9 +53,31 @@
 .Text {
   text-align: justify; }
 
-.conteiner, .header__img, .header__nav, .Footer {
+.conteiner, .header__img, .header__nav, .Footer, .Hero__conteiner__wrap {
   max-width: 1200px;
   margin: 0 auto; }
+
+.button {
+  flex-basis: 30%;
+  border: #fff8dc solid 2px;
+  border-radius: 30px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #7e7878;
+  background-color: #fff8dc; }
+
+.button:hover {
+  color: #da70d6; }
+
+.button:focus {
+  animation: vibrate-1 0.3s forwards; }
+
+.nav-text {
+  text-decoration: none;
+  color: #fff8dc;
+  margin: 5px; }
 
 .header {
   display: flex;
@@ -79,6 +92,8 @@
   .header__nav {
     display: flex;
     justify-content: end; }
+    .header__nav li a:hover {
+      color: #ffc1d3; }
 
 footer {
   background-color: #f8baf799; }
@@ -97,12 +112,12 @@ footer {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   gap: 10px; }
-  .Footer__rrss .rs-github {
+  .Footer__rrss .rs-pinterest {
     color: #fff8dc;
     font-size: 30px;
     transition: 0.5s; }
-    .Footer__rrss .rs-github:hover {
-      color: #da70d6; }
+    .Footer__rrss .rs-pinterest:hover {
+      color: #e70303; }
   .Footer__rrss .rs-twitter {
     color: #fff8dc;
     font-size: 30px;
@@ -119,6 +134,41 @@ footer {
 main {
   height: auto;
   background-image: linear-gradient(to right bottom, #f4f4f4, #f4f3f5, #f4f3f6, #f5f2f7, #f6f1f8, #f5e5fa, #f5d8fa, #f6cbfa, #f4aef9, #f18ef6, #ee6bf2, #eb3ced); }
+
+.Hero__conteiner {
+  display: flex;
+  max-width: 100%;
+  height: 80vh;
+  background-image: url(/assets/images/general/hero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; }
+  .Hero__conteiner__wrap {
+    display: flex;
+    justify-content: left;
+    flex-flow: row wrap;
+    height: 100%; }
+    .Hero__conteiner__wrap-text {
+      flex-basis: 50%;
+      color: #fff8dc;
+      text-align: left;
+      align-self: center; }
+      .Hero__conteiner__wrap-text span {
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 300; }
+      .Hero__conteiner__wrap-text h1 {
+        font-size: 32px;
+        line-height: .9;
+        padding-bottom: 3px; }
+      .Hero__conteiner__wrap-text p {
+        font-size: 15px;
+        line-height: 1.2;
+        text-align: justify; }
+      .Hero__conteiner__wrap-text-button {
+        display: flex;
+        margin-top: 30px;
+        flex-flow: row wrap; }
 
 .main__Formulario {
   grid-area: main__Formulario;

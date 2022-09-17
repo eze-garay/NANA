@@ -12,6 +12,11 @@
     &__nav {
         @extend .conteiner;
         @include templateFlex (end, false);
+        & li {
+            & a:hover{
+                color: $ColorNavtext;
+            }
+        }
 
     }
    
