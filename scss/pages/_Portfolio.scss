@@ -19,7 +19,7 @@
                 object-fit: cover;
         }
         & :hover {
-            filter : brightness(0.3);
+            filter : brightness(1.50);
             &:first-of-type {
                 grid-column: 2/ span 2; 
             }

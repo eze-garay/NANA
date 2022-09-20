@@ -220,7 +220,7 @@ main {
       height: 100%;
       object-fit: cover; }
     .Gallery__item :hover {
-      filter: brightness(0.3); }
+      filter: brightness(1.5); }
       .Gallery__item :hover:first-of-type {
         grid-column: 2/ span 2; }
 
