@@ -139,7 +139,7 @@ main {
   display: flex;
   max-width: 100%;
   height: 80vh;
-  background-image: url(/assets/images/general/hero.jpeg);
+  background-image: url(../assets/images/general/hero.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left; }
@@ -150,7 +150,7 @@ main {
     height: 100%; }
     .Hero__conteiner__wrap-text {
       flex-basis: 50%;
-      color: #fff8dc;
+      color: #f601f6;
       text-align: left;
       align-self: center; }
       .Hero__conteiner__wrap-text span {
