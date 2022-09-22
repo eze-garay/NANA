@@ -108,6 +108,9 @@ footer {
   justify-content: center;
   align-items: center; }
 
+.Footer__buttom-description {
+  margin: 10px; }
+
 .Footer__rrss {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
@@ -200,6 +203,11 @@ main {
   height: auto;
   width: auto; }
 
+.main__Formulario-select {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px; }
+
 .Gallery {
   width: 100%;
   max-width: 1200px;
@@ -220,7 +228,7 @@ main {
       height: 100%;
       object-fit: cover; }
     .Gallery__item :hover {
-      filter: brightness(1.5); }
+      filter: brightness(1.1); }
       .Gallery__item :hover:first-of-type {
         grid-column: 2/ span 2; }
 

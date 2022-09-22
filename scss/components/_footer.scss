@@ -5,10 +5,15 @@ footer {
     @extend .conteiner;
 
    &__conteiner {
+    
     @include templateGrid (1);
+
     }
     &__buttom-ingreso {
         @include templateFlex (center, true);
+    }
+    &__buttom-description {
+        margin: 10px;
     }
 
     &__rrss {
