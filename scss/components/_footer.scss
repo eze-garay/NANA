@@ -22,6 +22,7 @@ footer {
             pinterest: #e70303,
             twitter: #55acee,
             facebook: #2279e4,
+            instagram: #f09433,
 
         );
         @each $nameSocialMedia, $colorIcon in $iconSocialMedia {

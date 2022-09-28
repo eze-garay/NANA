@@ -33,15 +33,6 @@
 
 
 }
-.Footer__redes {
-    opacity: 30%;
-    border-radius: 40px;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-
-
-}
 
   @keyframes vibrate-1 {
     0% {
@@ -116,3 +107,21 @@
     color: $colorFont;
     margin: 5px;
 }
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    opacity: 50%;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
